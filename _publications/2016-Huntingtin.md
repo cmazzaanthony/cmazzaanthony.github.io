@@ -20,7 +20,7 @@ that we explored, the (L4K E12K K15E) was the most promising mutation combinatio
 addressed aggregation causes in both models. The mutant structure exhibited extreme 
 alpha-helical stability, low amyloidogenicity potential, a hydrophobic residue replacement, 
 and removal of a solvent-inaccessible intermolecular side chain that assists oligomerization.'
-date: 2016
+date: 2016-11-01
 venue: 'Computational and Mathematical Methods in Medicine'
 paperurl: 'http://cmazzaanthony.github.io/files/HuntingtinPaper.pdf'
 citation: 'Smaoui, M.R., Mazza-Anthony, C. and Waldispühl, J., 2016. 

@@ -1,5 +1,10 @@
 ---
 title: "coptim"
-excerpt: "Implementation optimization algorithms, gradient descent, newton's method, proximal descent, fast gradient methods...<br/><img src='/images/portfolio1.png'>"
+excerpt: "Optimization Framework <br/><img src='/images/portfolio1.png'>"
 collection: portfolio
 ---
+
+Optimization framework that includes implementations of popular methods
+for solving convex smooth/non-smooth objective functions. 
+
+The code is available [here](https://github.com/cmazzaanthony/coptim).

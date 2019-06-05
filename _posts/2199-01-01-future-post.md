@@ -27,5 +27,7 @@ The approach is to your idea and translates into a function that can be minimize
 ## Convex Sets
 
 A setA set $C \subset \mathbb{R}^n$ is called convex if
-$$\lambda \bm{x} + (1 - \lambda) \bm{y} \in C \quad (\bm{x}, \bm{y} \in C, \lambda \in (0,1))$$
+
+$$\lambda x + (1 - \lambda) y \in C \quad (x, y \in C, \lambda \in (0,1))$$
+
 Simply put, a set is convex if a line can be drawn between any two points that will remain in the set.

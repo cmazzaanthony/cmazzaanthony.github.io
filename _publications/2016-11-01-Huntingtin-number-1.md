@@ -2,7 +2,7 @@
 title: "Investigating mutations to reduce huntingtin aggregation by increasing Htt-N-terminal 
 stability and weakening interactions with PolyQ domain."
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2016-11-01-Huntingtin-number-1
 excerpt: 'Huntington’s disease is a fatal autosomal genetic disorder characterized by an 
 expanded glutamine-coding CAG repeat sequence in the huntingtin (Htt) exon 1 gene. 
 The Htt protein associated with the disease misfolds into toxic oligomers and aggregate 

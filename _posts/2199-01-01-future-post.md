@@ -26,7 +26,7 @@ The approach is to your idea and translates into a function that can be minimize
  
 ## Convex Sets
 
-A setA set $C \subset \mathbb{R}^n$ is called convex if
+A set $C \subset \mathbb{R}^n$ is called convex if
 
 $$\lambda x + (1 - \lambda) y \in C \quad (x, y \in C, \lambda \in (0,1))$$
 

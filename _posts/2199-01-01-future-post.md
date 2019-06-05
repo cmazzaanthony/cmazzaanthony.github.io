@@ -26,8 +26,6 @@ The approach is to your idea and translates into a function that can be minimize
  
 ## Convex Sets
 
-\[
- \min_{x \in \mathcal{X}} \quad f(x) &= g(x) + h(x) \\
-    \text{s.t. } & g_i (x) \le 0 \quad (i = 1, \dots, m) \\
-    & h_j (x) = 0 \quad (j = 1, \dots, p) 
- \]
+A setA set $C \subset \mathbb{R}^n$ is called convex if
+$$\lambda \bm{x} + (1 - \lambda) \bm{y} \in C \quad (\bm{x}, \bm{y} \in C, \lambda \in (0,1))$$
+Simply put, a set is convex if a line can be drawn between any two points that will remain in the set.

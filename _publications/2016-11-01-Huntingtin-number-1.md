@@ -28,10 +28,3 @@ Investigating mutations to reduce huntingtin aggregation by increasing
 Htt-N-terminal stability and weakening interactions with PolyQ domain. 
 Computational and mathematical methods in medicine, 2016.'
 ---
-
-[Download paper here](http://cmazzaanthony.github.io/files/HuntingtinPaper.pdf)
-
-Recommended citation: Smaoui, M.R., Mazza-Anthony, C. and Waldispühl, J., 2016. 
-                      Investigating mutations to reduce huntingtin aggregation by increasing 
-                      Htt-N-terminal stability and weakening interactions with PolyQ domain. 
-                      Computational and mathematical methods in medicine, 2016.

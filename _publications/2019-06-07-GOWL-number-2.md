@@ -25,9 +25,3 @@ citation: 'Mazza-Anthony, C., Mazoure, B., Coates, M., 2019.
 Learning Gaussian Graphical Models with Ordered Weighted L1 Regularization. 
 arXiv preprint arXiv:1906.02719, 2019.'
 ---
-
-[Download paper here](http://cmazzaanthony.github.io/files/1906.02719.pdf)
-
-Recommended citation: Mazza-Anthony, C., Mazoure, B., Coates, M., 2019. 
-                      Learning Gaussian Graphical Models with Ordered Weighted L1 Regularization. 
-                      arXiv preprint arXiv:1906.02719, 2019.

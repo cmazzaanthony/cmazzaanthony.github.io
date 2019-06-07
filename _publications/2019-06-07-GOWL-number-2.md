@@ -1,5 +1,5 @@
 ---
-title: "Learning Gaussian Graphical Models with Ordered Weighted L1 Regularization."
+title: "Learning Gaussian Graphical Models with Ordered Weighted L1 Regularization. (Submitted to NeurIPS 2019)"
 collection: publications
 permalink: /publication/2019-06-07-GOWL-number-2.md
 excerpt: 'We address the task of identifying densely connected subsets of multivariate 
@@ -19,7 +19,6 @@ comparisons are presented and demonstrates the superior computational efficiency
 We illustrate the grouping performance of the ccGOWL method on a cancer gene expression data 
 set and an equities data set'
 date: 2019-06-07
-venue: 'Submitted to NeurIPS 2019'
 paperurl: 'http://cmazzaanthony.github.io/files/1906.02719.pdf'
 citation: 'Mazza-Anthony, C., Mazoure, B., Coates, M., 2019. 
 Learning Gaussian Graphical Models with Ordered Weighted L1 Regularization. 

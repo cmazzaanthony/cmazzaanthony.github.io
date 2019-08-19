@@ -24,9 +24,9 @@ the morning. It could be fitting a linear model to some data. It could be trying
 your retirement savings or creating a budget. The applications are endless! 
 The approach is to your idea and translates into a function that can be minimized.
  
-## Convex Sets
+## Convex Sets and Functions
 
-A set $C \subset \mathbb{R}^n$ is called convex if
+Let's begin with the basics. A set $C \subset \mathbb{R}^n$ is called convex if
 
 $$\lambda x + (1 - \lambda) y \in C \quad (x, y \in C, \lambda \in (0,1))$$
 

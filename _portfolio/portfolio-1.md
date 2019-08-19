@@ -1,6 +1,6 @@
 ---
 title: "coptim"
-excerpt: "Optimization Framework <br/><img src='/images/portfolio1.png'>"
+excerpt: "Optimization Framework"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Cody Mazza-Anthony - Electrical Engineering Grad Student @ McGill University"
+title: "Cody Mazza-Anthony"
 excerpt: "About me"
 author_profile: true
 redirect_from: 

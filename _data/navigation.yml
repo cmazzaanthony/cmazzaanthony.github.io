@@ -7,7 +7,7 @@ main:
     url: /projects/
         
   - title: "Blog"
-    url: /year-archive/
+    url: /blog/
     
   - title: "CV"
     url: /files/resume.pdf

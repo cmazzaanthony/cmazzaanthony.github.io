@@ -6,8 +6,6 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
-
 I am currently a Masters student in Electrical Engineering at McGill University, supervised by [Mark Coates](http://www.ece.mcgill.ca/~mcoate/).
 
 I was a Technology Associate at Morgan Stanley after my undergraduate degree where I worked on the 

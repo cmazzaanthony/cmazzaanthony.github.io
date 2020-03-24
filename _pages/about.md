@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-# About Me
+## About Me
 
 I am currently a Masters student in Electrical Engineering at McGill University, supervised by [Mark Coates](http://www.ece.mcgill.ca/~mcoate/).
 
@@ -20,7 +20,7 @@ Previously, I obtained a Bachelor's in Computer Science and Biology in 2015 from
 undergraduate years I co-authored a computational biology paper with [Mohamed Smaoui](https://www.cs.mcgill.ca/~msmaou/) 
 and [Jerome Waldispuhl](https://www.cs.mcgill.ca/~jeromew/). 
 
-# Research Interests
+## Research Interests
 
 + High Dimensional Statistics
 + Optimization

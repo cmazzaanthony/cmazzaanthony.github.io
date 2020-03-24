@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Cody Mazza-Anthony"
 excerpt: "About me"
 author_profile: true
 redirect_from: 

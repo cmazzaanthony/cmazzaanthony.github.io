@@ -1,10 +1,10 @@
-# main links links
+# main links
 main:
   - title: "Publications"
     url: /publications/
     
-  - title: "Projects"
-    url: /projects/
+  - title: "Open-Source"
+    url: /open-source/
         
   - title: "Blog"
     url: /blog/

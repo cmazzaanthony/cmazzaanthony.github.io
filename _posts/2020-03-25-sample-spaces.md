@@ -7,6 +7,8 @@ tags:
   - sample space
 ---
 
+Coming Soon!
+<!-- 
 Mastering probability is as close as one gets to having a super power. It's one of those increasingly useful skills that you can apply to your everyday life. You can use it to determine the outcome of certain events, win big at the casino, and even use it to stop the mighty Thanos from wiping out half the universe! Kidding.  Essentially, what I am saying is probability is how you quantify/describe a random event. It's a language and a foresight that allows you to make informed decisions and to, quite possibly, know what happens before it happens.
 
 Let's start with an example!
@@ -19,4 +21,4 @@ Lots to take in? Welcome to Math, and don't worry. It gets easier.
 
 We will refer to this battle as an ``experiment''. In this experiment, there are \textbf{six} possible outcomes: acquiring the soul stone, time stone, space stone, mind, reality and power stones. After one battle with Thanos, I ask, what is the probability of acquiring, let's say, the mind stone?
 
-And, after two more battles with the tyrannical Thanos, what is the probability of acquiring the time and space stones too? By the end of the blog, you will be able to answer both these questions. First, a little notation.
+And, after two more battles with the tyrannical Thanos, what is the probability of acquiring the time and space stones too? By the end of the blog, you will be able to answer both these questions. First, a little notation. -->

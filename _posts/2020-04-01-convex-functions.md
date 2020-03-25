@@ -7,6 +7,8 @@ tags:
   - optimization
 ---
 
+Coming Soon!
+<!-- 
 This article is the first part of a series of articles that will examine and outline 
 different optimization algorithms from basic to more advanced. 
 
@@ -32,4 +34,4 @@ $$\lambda x + (1 - \lambda) y \in C \quad (x, y \in C, \lambda \in (0,1))$$
 
 Simply put, a set is convex if a line can be drawn between any two points that will remain in the set.
 
-Work in Progress....
+Work in Progress.... -->

@@ -31,3 +31,5 @@ Let's begin with the basics. A set $C \subset \mathbb{R}^n$ is called convex if
 $$\lambda x + (1 - \lambda) y \in C \quad (x, y \in C, \lambda \in (0,1))$$
 
 Simply put, a set is convex if a line can be drawn between any two points that will remain in the set.
+
+Work in Progress....

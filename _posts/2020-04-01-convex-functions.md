@@ -1,7 +1,7 @@
 ---
 title: 'An Introduction to Convex Optimization'
-date: 2020-01-01
-permalink: /posts/2012/08/blog-post-4/
+date: 2020-04-01
+permalink: /posts/2020/04/blog-post-4/
 tags:
   - convexity
   - optimization

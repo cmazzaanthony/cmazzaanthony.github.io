@@ -16,5 +16,7 @@ The repository is available [here](https://github.com/cmazzaanthony/coptim).
 
 ## [ccgowl: Gaussian Graphical Model library](https://cmazzaanthony.github.io/ccgowl/)
 
+<br/><img src='/images/fig_groups-01.png'>
+
 The repository is available [here](https://github.com/cmazzaanthony/ccgowl).
 

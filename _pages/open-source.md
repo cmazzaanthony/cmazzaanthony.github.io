@@ -16,7 +16,10 @@ The repository is available [here](https://github.com/cmazzaanthony/coptim).
 
 ## [ccgowl: Gaussian Graphical Model library](https://cmazzaanthony.github.io/ccgowl/)
 
-<br/><img src='/images/fig_groups-01.png'>
+We address the task of estimating sparse structured precision matrices for multivariate Gaussian random variables within a graphical model
+framework. We propose two novel estimators based on the Ordered Weighted $\ell_1$ (OWL) norm: 1) The Graphical OWL (GOWL) is a penalized likelihood method that applies the OWL norm to the lower triangle components of the precision matrix. 2) The column-by-column Graphical OWL (ccGOWL) estimates the precision matrix by performing OWL regularized linear regressions. Both methods can simultaneously identify groups of related edges in the graphical model and control the sparsity in the estimated precision matrix. We propose proximal descent algorithms to find the optimum for both estimators. For synthetic data where group structure is present, the ccGOWL estimator requires significantly reduced computation and achieves similar or greater accuracy than state-of-the-art estimators. Timing comparisons are presented and demonstrate the superior computational efficiency of the ccGOWL. We demonstrate the efficacy of the ccGOWL estimator on two domains---gene network analysis and econometrics.
+
+<br/><img src='/images/fig_groups-01.png' width="100%" height="500">
 
 The repository is available [here](https://github.com/cmazzaanthony/ccgowl).
 

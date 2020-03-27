@@ -41,7 +41,7 @@ Optimal Point: [0.99992058 0.9998407 ]
 Iterations: 8058
 ```
 
-The repository is available [here](https://github.com/cmazzaanthony/coptim).
+----
 
 ## [ccgowl: Gaussian Graphical Model library](https://cmazzaanthony.github.io/ccgowl/)
 

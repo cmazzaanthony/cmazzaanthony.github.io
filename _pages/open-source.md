@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## [Coptim: Optimization Framework](https://cmazzaanthony.github.io/coptim/)
+## [coptim: Optimization Framework](https://cmazzaanthony.github.io/coptim/)
 
 The repository is available [here](https://github.com/cmazzaanthony/coptim).
 

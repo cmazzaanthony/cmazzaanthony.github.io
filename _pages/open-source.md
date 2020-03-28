@@ -17,9 +17,10 @@ for solving convex smooth/non-smooth objective functions.
 
 ```python
 from src.optimizers.gradient_method import GradientMethod
+from src.functions.rosenbrock import Rosenbrock
 
 objective = Rosenbrock()
-starting_point = np.array([-1.2, 1])
+starting_point = np.array([-1.2, 1])	
 beta = 0.5
 sigma = 0.0001
 epsilon = 0.0001

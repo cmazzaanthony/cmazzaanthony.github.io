@@ -16,10 +16,10 @@ Optimization framework that includes implementations of popular methods
 for solving convex smooth/non-smooth objective functions.
 
 ```python
-from src.optimizers.gradient_method import GradientMethod
-from src.functions.rosenbrock import Rosenbrock
+from coptim.optimizers.gradient_method import GradientMethod
+from coptim.functions.rosenbrock import Rosenbrock
 
-objective = Rosenbrock()
+objective = Rosenbrock()	
 starting_point = np.array([-1.2, 1])	
 beta = 0.5
 sigma = 0.0001

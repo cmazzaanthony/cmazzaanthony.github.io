@@ -59,7 +59,7 @@ So what is a probability? Well, it can be defined as:
 
 $$\text{Probability of an event occurring} = \frac{\text{Number of ways an event can occur}}{\text{Total number of sample outcomes}}$$
 
-So let's tie this concept back to our example. If Iron Man fights Thanos **twice**, what is the probability that Iron Man takes the **same** infinity stone? Well, the total number of sample outcomes was $|\Omega| = 36$ and the number of ways it can happen was $|A| = 6$ so we simply divide $6/36 = 1/6$. Thus, there is a 1 in 6 chance that Iron Man picks the same infinity stone in both battles. We will elaborate on this concept in the next post.
+So let's tie this concept back to our example. If Iron Man fights Thanos **twice**, what is the probability that Iron Man takes the **same** infinity stone? Well, the total number of sample outcomes was $\|\Omega\| = 36$ and the number of ways it can happen was $|A| = 6$ so we simply divide $6/36 = 1/6$. Thus, there is a 1 in 6 chance that Iron Man picks the same infinity stone in both battles. We will elaborate on this concept in the next post.
 
 To summarize, in this blog post we essentially learned what a random experiment is in probability theory. To formalize, a random experiment consists of three parts:
 

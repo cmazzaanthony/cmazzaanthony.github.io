@@ -76,6 +76,11 @@ Now, what does this mean for you? Well, now that the fundamental buildings are i
 
 It is, as Nick Fury said, at the end of Iron Man, "Mr. Stark, you've become part of a bigger universe. You just don't know it yet."
 
+<p align="center">
+  <img width="460" height="300" src="https://giphy.com/gifs/iron-man-tony-stark-WbNqQbrnAGr5e">
+</p>
+
+
 ## References
 
 Wasserman, L., 2013. All of statistics: a concise course in statistical inference. Springer Science & Business Media.

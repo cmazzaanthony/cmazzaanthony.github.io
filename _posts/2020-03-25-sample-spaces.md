@@ -11,9 +11,9 @@ Mastering probability is as close as one gets to having a super power. It's one 
 
 ## Prerequisites & Notation
 
-* $\Omega$: sample space (considered a [set](https://en.wikipedia.org/wiki/Set_(mathematics))
+* $\Omega$: sample space (considered a [set](https://en.wikipedia.org/wiki/Set_(mathematics) )
 * $\omega$: sample outcome
-* $A$: event ([subset](https://en.wikipedia.org/wiki/Set_(mathematics) of $\Omega$)
+* $A$: event (a [subset](https://en.wikipedia.org/wiki/Set_(mathematics) of $\Omega$ )
 * $\|A\|$: the number of elements in set $A$
 * $a \in S$: the value $a$ is "a member of" or simply "in" set $S$.
 
@@ -37,7 +37,7 @@ As many know, Mathematics is an extremely rigorous endeavour. So, in order to sp
 
 We will begin with the **sample space**. A sample space represented by $\Omega$ is the set of all possible outcomes in an experiment. Elements in the set $\Omega$ are denoted by $\omega$ and are called **sample outcomes**. Any subset of $\Omega$ is called an **event** and is denoted by $A$.
 
-Back to the Thanos example, if we battle Thanos exactly once then our sample space is defined by $\Omega =$ {soul, time, space, mind, reality, power$. A sample outcome would be acquiring the power stone defined by $\omega = power$. An event can be one or more sample outcomes (subset) of an experiment. Let's get a bit tougher, what is the sample space if we battle Thanos, let's say...twice?
+Back to the Thanos example, if we battle Thanos exactly once then our sample space is defined by $\Omega =$ {soul, time, space, mind, reality, power}. A sample outcome would be acquiring the power stone defined by $\omega = power$. An event can be one or more sample outcomes (subset) of an experiment. Let's get a bit tougher, what is the sample space if we battle Thanos, let's say...twice?
 
 How do we define the event where we pick the **same** infinity stone in **both** battles? Well, in this case there are 36 sample outcomes ($\|\Omega\| = 36$) and in our sample space: {(soul, time), (soul, space) , ...}. If this is confusing, don't worry. I don't find it by any means obvious why there are 36 possible sample outcomes. In order to better understand this, we will dabble in \textit{combinatorics}. The number of sample outcomes can be calculated using the formula $n^r$ where $n$ represents the number of items to choose from and $r$ represents the number we wish to choose. So in our example there are 6 infinity stones to choose from and we want to choose 2 of them, thus $6^2 = 36$ ([reference](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)).
 
@@ -75,7 +75,7 @@ It is, as Nick Fury said, at the end of Iron Man, "Mr. Stark, you've become part
 
 ## References
 
-Wasserman, L., 2013. All of statistics: a concise course in statistical inference. Springer Science \& Business Media.
+Wasserman, L., 2013. All of statistics: a concise course in statistical inference. Springer Science & Business Media.
 
 (2020, October 1). Probability. https://www.mathsisfun.com/data/probability.html
 

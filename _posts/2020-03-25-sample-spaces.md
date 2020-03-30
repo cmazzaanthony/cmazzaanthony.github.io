@@ -11,9 +11,9 @@ Mastering probability is as close as one gets to having a super power. It's one 
 
 ## Prerequisites & Notation
 
-* $\Omega$: sample space; considered a [set](https://en.wikipedia.org/wiki/Set_(mathematics).
+* $\Omega$: sample space; considered a [set](https://en.wikipedia.org/wiki/Set_(mathematics)).
 * $\omega$: sample outcome
-* $A$: event; a [subset](https://en.wikipedia.org/wiki/Set_(mathematics) of $\Omega$.
+* $A$: event; a [subset](https://en.wikipedia.org/wiki/Set_(mathematics)) of $\Omega$.
 * $\|A\|$: the number of elements in set $A$
 * $a \in S$: the value $a$ is "a member of" or simply "in" set $S$.
 
@@ -77,7 +77,7 @@ Now, what does this mean for you? Well, now that the fundamental buildings are i
 It is, as Nick Fury said, at the end of Iron Man, "Mr. Stark, you've become part of a bigger universe. You just don't know it yet."
 
 <p align="center">
-  <img width="460" height="300" src="https://giphy.com/gifs/iron-man-tony-stark-WbNqQbrnAGr5e">
+  <img width="460" height="300" src="https://media.giphy.com/media/WbNqQbrnAGr5e/source.gif">
 </p>
 
 

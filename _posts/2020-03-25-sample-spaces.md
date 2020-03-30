@@ -21,6 +21,8 @@ Let's start with an example!
 
 I love comic books so all the examples in this blog series will be centered around comics, cinematic universes, and all pop culture goodness that comes with being a self-professed geek! I assume a lot of readers are familiar with such, so let's jump right into it. Assume, for instance, Iron Man is facing off with the mad titan Thanos, who already possesses all six infinity stones. During their fiery battle, the goal for Stark is to prevent Thanos from snapping his fingers, and to ensure this, all Iron Man needs is ONE out of SIX stones!
 
+![Alt Text](https://media3.giphy.com/media/xUOxeZn47mrdabqDNC/giphy.gif?cid=ecf05e472d037e036a9637fcf8368f655a34daa0a09d8747&rid=giphy.gif)
+
 Now, since Thanos is the toughest bad guy around, we will consider this liaison as a "random event". Iron Man is all on his own without Thor, Captain Marvel, and the other avengers, thereby we assume that Iron Man can only acquire one of the six infinity stones and flee before Thanos obliterates him. We must also state that acquiring only one of the six infinity stones from Thanos are **equally likely outcomes**. We must also note that this battle is **easily repeatable** and that in each battle the outcomes do **not** change.
 
 Lots to take in? Welcome to Math, and don't worry. It gets easier.
@@ -35,9 +37,9 @@ As many know, Mathematics is an extremely rigorous endeavour. So, in order to sp
 
 We will begin with the **sample space**. A sample space represented by $\Omega$ is the set of all possible outcomes in an experiment. Elements in the set $\Omega$ are denoted by $\omega$ and are called **sample outcomes**. Any subset of $\Omega$ is called an **event** and is denoted by $A$.
 
-Back to the Thanos example, if we battle Thanos exactly once then our sample space is defined by $\Omega = {soul, time, space, mind, reality, power}$. A sample outcome would be acquiring the power stone defined by $\omega = power$. An event can be one or more sample outcomes (subset) of an experiment. Let's get a bit tougher, what is the sample space if we battle Thanos, let's say...twice?
+Back to the Thanos example, if we battle Thanos exactly once then our sample space is defined by $\Omega =$ {soul, time, space, mind, reality, power$. A sample outcome would be acquiring the power stone defined by $\omega = power$. An event can be one or more sample outcomes (subset) of an experiment. Let's get a bit tougher, what is the sample space if we battle Thanos, let's say...twice?
 
-How do we define the event where we pick the **same** infinity stone in **both** battles? Well, in this case there are 36 sample outcomes ($\|\Omega\| = 36$) and in our sample space: $\{ (soul, time), (soul, space) , ...\}$. If this is confusing, don't worry. I don't find it by any means obvious why there are 36 possible sample outcomes. In order to better understand this, we will dabble in \textit{combinatorics}. The number of sample outcomes can be calculated using the formula $n^r$ where $n$ represents the number of items to choose from and $r$ represents the number we wish to choose. So in our example there are 6 infinity stones to choose from and we want to choose 2 of them, thus $6^2 = 36$ ([reference](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)).
+How do we define the event where we pick the **same** infinity stone in **both** battles? Well, in this case there are 36 sample outcomes ($\|\Omega\| = 36$) and in our sample space: {(soul, time), (soul, space) , ...}. If this is confusing, don't worry. I don't find it by any means obvious why there are 36 possible sample outcomes. In order to better understand this, we will dabble in \textit{combinatorics}. The number of sample outcomes can be calculated using the formula $n^r$ where $n$ represents the number of items to choose from and $r$ represents the number we wish to choose. So in our example there are 6 infinity stones to choose from and we want to choose 2 of them, thus $6^2 = 36$ ([reference](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)).
 
 We won't list all the possibilities, but instead we will do something even better to define this **sample space**. We will use mathematical notation!
 
@@ -49,7 +51,7 @@ The symbol $\in$ simply means that an element is in the set. If $\omega_1 = soul
 
 $$A = \{(soul, soul), (time, time), (space, space), (mind, mind), (reality, reality), (power, power) \}$$
 
-with $|A| = 6$. What we would be the sample space if Iron Man fought Thanos an infinite amount of times? Well, it would be the following:
+with $\|A\| = 6$. What we would be the sample space if Iron Man fought Thanos an infinite amount of times? Well, it would be the following:
 
 $$\Omega = \Big\{ \omega = (\omega_1, \omega_2, \dots) : \omega_i \in \{ soul, time, space, mind, reality, power \} \Big\}$$
 
@@ -59,7 +61,7 @@ So what is a probability? Well, it can be defined as:
 
 $$\text{Probability of an event occurring} = \frac{\text{Number of ways an event can occur}}{\text{Total number of sample outcomes}}$$
 
-So let's tie this concept back to our example. If Iron Man fights Thanos **twice**, what is the probability that Iron Man takes the **same** infinity stone? Well, the total number of sample outcomes was $\|\Omega\| = 36$ and the number of ways it can happen was $|A| = 6$ so we simply divide $6/36 = 1/6$. Thus, there is a 1 in 6 chance that Iron Man picks the same infinity stone in both battles. We will elaborate on this concept in the next post.
+So let's tie this concept back to our example. If Iron Man fights Thanos **twice**, what is the probability that Iron Man takes the **same** infinity stone? Well, the total number of sample outcomes was $\|\Omega\| = 36$ and the number of ways it can happen was $\|A\| = 6$ so we simply divide $6/36 = 1/6$. Thus, there is a 1 in 6 chance that Iron Man picks the same infinity stone in both battles. We will elaborate on this concept in the next post.
 
 To summarize, in this blog post we essentially learned what a random experiment is in probability theory. To formalize, a random experiment consists of three parts:
 

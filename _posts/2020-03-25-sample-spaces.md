@@ -11,9 +11,9 @@ Mastering probability is as close as one gets to having a super power. It's one 
 
 ## Prerequisites & Notation
 
-* $\Omega$: sample space (considered a [set](https://en.wikipedia.org/wiki/Set_(mathematics) )
+* $\Omega$: sample space; considered a [set](https://en.wikipedia.org/wiki/Set_(mathematics).
 * $\omega$: sample outcome
-* $A$: event (a [subset](https://en.wikipedia.org/wiki/Set_(mathematics) of $\Omega$ )
+* $A$: event; a [subset](https://en.wikipedia.org/wiki/Set_(mathematics) of $\Omega$.
 * $\|A\|$: the number of elements in set $A$
 * $a \in S$: the value $a$ is "a member of" or simply "in" set $S$.
 

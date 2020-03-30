@@ -21,11 +21,6 @@ Let's start with an example!
 
 I love comic books so all the examples in this blog series will be centered around comics, cinematic universes, and all pop culture goodness that comes with being a self-professed geek! I assume a lot of readers are familiar with such, so let's jump right into it. Assume, for instance, Iron Man is facing off with the mad titan Thanos, who already possesses all six infinity stones. During their fiery battle, the goal for Stark is to prevent Thanos from snapping his fingers, and to ensure this, all Iron Man needs is ONE out of SIX stones!
 
-<p align="center">
-  <img width="460" height="300" src="https://media3.giphy.com/media/xUOxeZn47mrdabqDNC/giphy.gif?cid=ecf05e472d037e036a9637fcf8368f655a34daa0a09d8747&rid=giphy.gif">
-</p>
-
-
 Now, since Thanos is the toughest bad guy around, we will consider this liaison as a "random event". Iron Man is all on his own without Thor, Captain Marvel, and the other avengers, thereby we assume that Iron Man can only acquire one of the six infinity stones and flee before Thanos obliterates him. We must also state that acquiring only one of the six infinity stones from Thanos are **equally likely outcomes**. We must also note that this battle is **easily repeatable** and that in each battle the outcomes do **not** change.
 
 Lots to take in? Welcome to Math, and don't worry. It gets easier.
@@ -75,10 +70,6 @@ To summarize, in this blog post we essentially learned what a random experiment 
 Now, what does this mean for you? Well, now that the fundamental buildings are in place, and have taken the first steps towards understanding statistics, you see that math is often found in the least expected, yet most exciting places!
 
 It is, as Nick Fury said, at the end of Iron Man, "Mr. Stark, you've become part of a bigger universe. You just don't know it yet."
-
-<p align="center">
-  <img width="460" height="300" src="https://media.giphy.com/media/WbNqQbrnAGr5e/source.gif">
-</p>
 
 
 ## References

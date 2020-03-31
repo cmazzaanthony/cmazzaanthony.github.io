@@ -31,11 +31,8 @@ In our example let's say event $A$ is "choose a Swedish Short-Snout first" with 
 Now here is the tricky part, for event $B$ we have four choices:
     
 (a) If we chose a Swedish Short-Snout first the probability is now 1/6.
-
 (b) If we chose a Common Welsh Green the probability is now 3/6.
-
 (c) If we chose a Chinese Fireball the probability is now 1/6.
-
 (d) If we chose a Hungarian Horntail the probability is now 1/6.
 
 We have to stipulate which one happened must have happened first. To do that we use the mathematical symbol "$\|$" to denote "given". Thus, $\mathbb{P}(A\|B)$ means "Event A given event B" and is also referred to as the conditional probability of A given B. Let's do an example using our fancy new notation! What are the chances of choosing a Common Welsh Green dragon first (Event A), and then choosing a Common Welsh Green second (Event B). So we can start with the conditional probability formula and rearrange a bit:
@@ -49,6 +46,7 @@ We know the chances of choosing a Common Welsh Green is 3/7 ($\mathbb{P} (A)$), 
 So we plug in the numbers:
 
 $$\mathbb{P} (AB) = 2/6 * 3/7$$
+
 $$\mathbb{P} (AB) = 0.14$$
 
 This may seem simple, but sometimes it can be tricky. For instance, it is usually not the case that $\mathbb{P}(A\|B) = \mathbb{P}(B\|A)$. In fact, they can be extremely different! Let's think about this when answering the question: What is the probability of choosing a Swedish Short-Snout given that we chose a Chinese Fireball first, $\mathbb{P}(A\|B)$?

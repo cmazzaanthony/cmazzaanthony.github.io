@@ -7,7 +7,7 @@ tags:
   - dependent events
 ---
 
-Think of conditional probability as a way to analyze **dependent** events. Dependent events are events affected by previous events. We denote the conditional probability as $\mathbb{P} (A | B)$ which means the probability of event A occurring given event B has already happened.
+Think of conditional probability as a way to analyze **dependent** events. Dependent events are events affected by previous events. We denote the conditional probability as $\mathbb{P} (A \| B)$ which means the probability of event A occurring given event B has already happened.
 
 Recall, the Triwizard Tournament example from the previous post where our sample space was $\Omega$ = {SSS, CWG, CF, HH}. In order to illustrate the effects of dependent events lets change the sample space to the following: $\Omega$ = { SSS, SSS, CWG, CWG, CWG, CF, HH} where
 
@@ -40,22 +40,22 @@ We have to stipulate which one happened must have happened first. To do that we 
 $$\mathbb{P}(B|A) = \frac{\mathbb{P} (AB)}{\mathbb{P} (A)}$$
 $$\mathbb{P} (AB) = \mathbb{P}(B|A) \mathbb{P} (A)$$
 
-We know the chances of choosing a Common Welsh Green is 3/7 ($\mathbb{P} (A)$), but after we remove that dragon from the bag, the second dragon chosen from the bag is less likely to be a Common Welsh Green: $\mathbb{P} (B|A) = 2/6$.
+We know the chances of choosing a Common Welsh Green is 3/7 ($\mathbb{P} (A)$), but after we remove that dragon from the bag, the second dragon chosen from the bag is less likely to be a Common Welsh Green: $\mathbb{P} (B\|A) = 2/6$.
 
 So we plug in the numbers:
 
-$$\mathbb{P} (AB) &= 2/6 * 3/7$$
-$$\mathbb{P} (AB) &= 0.14$$
+$$\mathbb{P} (AB) = 2/6 * 3/7$$
+$$\mathbb{P} (AB) = 0.14$$
 
-This may seem simple, but sometimes it can be tricky. For instance, it is usually not the case that $\mathbb{P}(A|B) = \mathbb{P}(B|A)$. In fact, they can be extremely different! Let's think about this when answering the question: What is the probability of choosing a Swedish Short-Snout given that we chose a Chinese Fireball first ($\mathbb{P}(A|B)$)?
+This may seem simple, but sometimes it can be tricky. For instance, it is usually not the case that $\mathbb{P}(A\|B) = \mathbb{P}(B\|A)$. In fact, they can be extremely different! Let's think about this when answering the question: What is the probability of choosing a Swedish Short-Snout given that we chose a Chinese Fireball first ($\mathbb{P}(A\|B)$)?
 
-Secondly, is this probability the same as choosing a Chinese Fireball given a Swedish Short-Snout was chosen first ($\mathbb{P}(B|A)$)?
+Secondly, is this probability the same as choosing a Chinese Fireball given a Swedish Short-Snout was chosen first ($\mathbb{P}(B\|A)$)?
 
-Well, the answer to the first question is 2/6, since there are two Swedish Short-Snout's in the bag once we removed the Chinese Fireball. Now, if we chose the Swedish Short-Snout first and then chose the Chinese Fireball, the probability of this event would be 3/6. See! Not the same! $\mathbb{P}(A|B) \ne \mathbb{P}(B|A)$!
+Well, the answer to the first question is 2/6, since there are two Swedish Short-Snout's in the bag once we removed the Chinese Fireball. Now, if we chose the Swedish Short-Snout first and then chose the Chinese Fireball, the probability of this event would be 3/6. See! Not the same! $\mathbb{P}(A\|B) \ne \mathbb{P}(B\|A)$!
 
 In the next Triwizard Tournament, you will know exactly what your probabilities of choosing each dragon will be! Hopefully, this new skill will help make it passed task one.
 
-##References
+## References
 
 Wasserman, L., 2013. All of statistics: a concise course in statistical inference. Springer Science \& Business Media.
 

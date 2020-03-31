@@ -1,6 +1,6 @@
 ---
 title: 'Probability and The Triwizard Tournament'
-date: 2020-04-01
+date: 2020-03-31
 permalink: /posts/2020/03/blog-post-2/
 tags:
   - probability
@@ -65,7 +65,7 @@ Simple enough. Given what we just learned, now, I ask, what is highest a value a
 * **Rule 2**: $\mathbb{P} (\Omega) = 1$
 * **Rule 3**: If $A_1, A_2 \dots$ are disjoint then
 
-$$\mathbb{P} \Big( \bigcup_{i=1}^{\infty} A_i \Big) &= \sum_{i=1}^{\infty} \mathbb{P} (A_i)$$
+$$\mathbb{P} \Big( cup_{i=1}^{\infty} A_i \Big) &= \sum_{i=1}^{\infty} \mathbb{P} (A_i)$$
 
 (Note: Two events are considered disjoint (mutually exclusive) if they cannot both occur at the same time.)
 
@@ -85,11 +85,11 @@ For example, in a casino at the roulette table who will sometimes see a screen t
 
 We will discuss dependent events in more detail later on. For now, rejoice in the fact that you know the difference between what is, and what can be.
 
-**(Mathematical Definition** Two events $A$ and $B$ are independent if
+**(Mathematical Definition)** Two events $A$ and $B$ are independent if
 
 $$\mathbb{P}(AB) = \mathbb{P}(A) \cap \mathbb{P}(B)$$
 
-and we write $A \independent B$. A set of events $\{A_i : i \in I \}$ is independent if 
+A set of events $\{A_i : i \in I \}$ is independent if 
 
 $$\mathbb{P} \Big( \bigcap_{i \in J} A_i \Big) = \prod_{i \in J} \mathbb{P} (A_i)$$
 

@@ -1,6 +1,6 @@
 ---
 title: 'Infinity Stones and Sample Spaces'
-date: 2020-04-01
+date: 2020-03-30
 permalink: /posts/2020/03/blog-post-1/
 tags:
   - probability

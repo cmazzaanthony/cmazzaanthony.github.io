@@ -41,6 +41,7 @@ Now here is the tricky part, for event $B$ we have four choices:
 We have to stipulate which one happened must have happened first. To do that we use the mathematical symbol "$\|$" to denote "given". Thus, $\mathbb{P}(A\|B)$ means "Event A given event B" and is also referred to as the conditional probability of A given B. Let's do an example using our fancy new notation! What are the chances of choosing a Common Welsh Green dragon first (Event A), and then choosing a Common Welsh Green second (Event B). So we can start with the conditional probability formula and rearrange a bit:
 
 $$\mathbb{P}(B|A) = \frac{\mathbb{P} (AB)}{\mathbb{P} (A)}$$
+
 $$\mathbb{P} (AB) = \mathbb{P}(B|A) \mathbb{P} (A)$$
 
 We know the chances of choosing a Common Welsh Green is 3/7 ($\mathbb{P} (A)$), but after we remove that dragon from the bag, the second dragon chosen from the bag is less likely to be a Common Welsh Green: $\mathbb{P} (B\|A) = 2/6$.
@@ -50,7 +51,7 @@ So we plug in the numbers:
 $$\mathbb{P} (AB) = 2/6 * 3/7$$
 $$\mathbb{P} (AB) = 0.14$$
 
-This may seem simple, but sometimes it can be tricky. For instance, it is usually not the case that $\mathbb{P}(A\|B) = \mathbb{P}(B\|A)$. In fact, they can be extremely different! Let's think about this when answering the question: What is the probability of choosing a Swedish Short-Snout given that we chose a Chinese Fireball first ($\mathbb{P}(A\|B)$)?
+This may seem simple, but sometimes it can be tricky. For instance, it is usually not the case that $\mathbb{P}(A\|B) = \mathbb{P}(B\|A)$. In fact, they can be extremely different! Let's think about this when answering the question: What is the probability of choosing a Swedish Short-Snout given that we chose a Chinese Fireball first, $\mathbb{P}(A\|B)$?
 
 Secondly, is this probability the same as choosing a Chinese Fireball given a Swedish Short-Snout was chosen first ($\mathbb{P}(B\|A)$)?
 

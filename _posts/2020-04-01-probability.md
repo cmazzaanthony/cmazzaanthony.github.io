@@ -52,7 +52,7 @@ We will refer to this first task selection as an **experiment**. To simplify, le
 
 Let's apply the skills we learned in the previous post to model the sample space. If Doctor Strange repeats this experiment once, then
 
-$$\Omega &= \{ SSS, CWG, CF, HH \}$$
+$$\Omega = \{ SSS, CWG, CF, HH \}$$
 
 The event that Harry chooses the Swedish Short-Snout is 
 
@@ -74,7 +74,7 @@ Simple enough. Given what we just learned, now, I ask, what is highest a value a
 * **Rule 2**: $\mathbb{P} (\Omega) = 1$
 * **Rule 3**: If $A_1, A_2 \dots$ are disjoint then
 
-$$\mathbb{P} \Big( \bigcup_{i=1}^{5} A_i \Big) &= \sum_{i=1}^{5} \mathbb{P} (A_i)$$
+$$\mathbb{P} \Big( \bigcup_{i=1}^{\infty} A_i \Big) = \sum_{i=1}^{\infty} \mathbb{P} (A_i)$$
 
 (Note: Two events are considered disjoint (mutually exclusive) if they cannot both occur at the same time.)
 

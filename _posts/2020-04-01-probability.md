@@ -33,9 +33,18 @@ Well, before you answer this, let's start with a motivating example!
 
 Recall, that Doctor Strange has been shown to use the time stone to look at all possible future events. He does this on the planet Titan before Thanos arrives to retrieve the time stone. I think it's reasonable to assume that Doctor Strange can also use the time stone to replay an experiment an infinite amount of times (we discussed this concept in the previous post).
 
+<p align="center">
+  <img width="460" height="300" src="https://media2.giphy.com/media/18RUgAS9WenUMTsxbo/giphy.gif?cid=ecf05e475e4dbdb37d9081f57d046a55340b5f9f8ffeab24&rid=giphy.gif">
+</p>
+
 Time for a more ambitious crossover!
 
 In the first task of the Triwizard Tournament, all four Champions were required to dip their hand into a bag containing four miniature dragons: The Swedish Short-Snout, Common Welsh Green, The Chinese Fireball, and The Hungarian Horntail! Bonus points, for those of you who know which Champion chose which dragon.
+
+<p align="center">
+  <img width="460" height="300" src="https://media2.giphy.com/media/uEfXnYLC4hEaY/giphy.gif?cid=ecf05e47bc739c5c624d6c9152e9c123fb311f4b19e5ad0d&rid=giphy.gif">
+</p>
+
 
 We will refer to this first task selection as an **experiment**. To simplify, let's assume Harry Potter always chooses first (modelling this experiment would be more difficult otherwise).
 

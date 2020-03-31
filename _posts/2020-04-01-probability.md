@@ -74,7 +74,7 @@ Simple enough. Given what we just learned, now, I ask, what is highest a value a
 * **Rule 2**: $\mathbb{P} (\Omega) = 1$
 * **Rule 3**: If $A_1, A_2 \dots$ are disjoint then
 
-$$\mathbb{P} \Big( cup_{i=1}^{\infty} A_i \Big) &= \sum_{i=1}^{\infty} \mathbb{P} (A_i)$$
+$$\mathbb{P} \Big( \bigcup_{i=1}^{5} A_i \Big) &= \sum_{i=1}^{5} \mathbb{P} (A_i)$$
 
 (Note: Two events are considered disjoint (mutually exclusive) if they cannot both occur at the same time.)
 

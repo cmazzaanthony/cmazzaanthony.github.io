@@ -11,6 +11,10 @@ It is said by many that Bayes' Theorem is one of the most important theorems in 
 
 Like previous posts, we will set the stage by relating this theorem to some pop culture. In what I think is M. Night Shyamalan's best film, [Unbreakable](https://en.wikipedia.org/wiki/Unbreakable_(film)), David Dunn is a man who begins to discover that he possesses superhuman abilities. Unbreakable is the first installment in a trilogy of films referred to as the *Eastrail 177 Trilogy*. In further films, David meets other so called "enhanced" humans, such as the character Kevin Wendell Crumb, a person who suffers from multiple personality disorder, but also possesses superhuman abilities like David. I really loved the films Unbreakable and Split; I highly recommend them. Where was I? Ahh yes, Bayes' Theorem.
 
+<p align="center">
+  <img width="460" height="300" src="https://media0.giphy.com/media/2tSjIKp84Pp6pgq7oY/giphy.gif">
+</p>
+
 Let's start with the definition of Bayes' Theorem and connect it back to the aforementioned pop culture reference. Let $H$ denote our hypothesis and $E$ denote our evidence. Bayes' Theorem is defined by
 
 $$\mathbb{P} (H | E) = \frac{\mathbb{P} (H)  \mathbb{P} (E | H)}{\mathbb{P} (E) }$$

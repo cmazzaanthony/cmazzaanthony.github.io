@@ -2,20 +2,28 @@
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+from scipy.stats import norm
+from scipy.integrate import quad
 
-burps_per_episode = [20, 19, 14, 13, 12, 11, 11, 11, 10, 8, 8, 7, 6, 5, 4, 3, 3, 2, 2, 1, 1]
-mean_burps_per_episode = np.array(burps_per_episode).mean().round(1)
-variance_burps_per_episode = np.array(burps_per_episode).var().round(1)
+mean = 6  # mean time passed before Rick burps
+std = 1.2  # std of time passed before Rick burps
+samples = np.random.normal(6, 1.2, size=1000)
 
-print(mean_burps_per_episode)
-print(variance_burps_per_episode)
-
-# 1. Pick a distribution, easiest is Gaussian, use mean and variance
-samples = np.random.normal(mean_burps_per_episode, variance_burps_per_episode, size=1000)
-
-sns.distplot(samples, hist=True, kde=True,
-             bins=int(180 / 5), color='darkblue',
-             hist_kws={'edgecolor': 'black'},
-             kde_kws={'linewidth': 4})
-
+ax = sns.distplot(
+    samples,
+    hist=True,
+    kde=True,
+    bins=20,
+    color='darkblue',
+    hist_kws={'edgecolor': 'black'},
+    kde_kws={'linewidth': 4},
+)
+ax.set_xlabel("Amount of time between Rick's burps in the next episode")
+ax.set_ylabel("Density")
 plt.show()
+# plt.savefig('pdf.png')
+
+
+# Compute Probabilities of a PDF (Area under the Curve)
+pdf_func = norm(mean, std).pdf
+probability, error = quad(pdf_func, 0, 12)  # computes integral of function

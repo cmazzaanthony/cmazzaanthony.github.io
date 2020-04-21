@@ -1,5 +1,5 @@
 ---
-title: 'Dragons and Conditional Probability'
+title: 'Probability #3: Dragons and Conditional Probability'
 date: 2020-04-01
 permalink: /posts/2020/03/blog-post-3/
 tags:

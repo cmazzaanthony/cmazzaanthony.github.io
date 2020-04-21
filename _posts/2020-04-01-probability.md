@@ -1,5 +1,5 @@
 ---
-title: 'Probability and The Triwizard Tournament'
+title: 'Probability #2: Probability and The Triwizard Tournament'
 date: 2020-03-31
 permalink: /posts/2020/03/blog-post-2/
 tags:

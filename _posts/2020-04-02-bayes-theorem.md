@@ -1,5 +1,5 @@
 ---
-title: 'The Unbreakable Bayes Theorem'
+title: 'Probability #4: The Unbreakable Bayes Theorem'
 date: 2020-04-02
 permalink: /posts/2020/03/blog-post-4/
 tags:

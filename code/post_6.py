@@ -26,4 +26,6 @@ plt.show()
 
 # Compute Probabilities of a PDF (Area under the Curve)
 pdf_func = norm(mean, std).pdf
-probability, error = quad(pdf_func, 0, 12)  # computes integral of function
+probability, _ = quad(pdf_func, 0, 12)  # computes integral of function
+
+np.array([quad(pdf_func(x), x, np.inf)[0] for x in samples]).mean()

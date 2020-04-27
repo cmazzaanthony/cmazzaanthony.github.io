@@ -7,7 +7,7 @@ from scipy.integrate import quad
 
 mean = 6  # mean time passed before Rick burps
 std = 1.2  # std of time passed before Rick burps
-samples = np.random.normal(6, 1.2, size=1000)
+samples = np.random.normal(6, 1.2, size=1000)  # TODO: Change to Poisson
 
 ax = sns.distplot(
     samples,
@@ -28,4 +28,6 @@ plt.show()
 pdf_func = norm(mean, std).pdf
 probability, _ = quad(pdf_func, 0, 12)  # computes integral of function
 
-np.array([quad(pdf_func(x), x, np.inf)[0] for x in samples]).mean()
+expectation, _ = quad(lambda x: x * pdf_func(x), a=-np.inf, b=np.inf)[0]
+
+# https://stackoverflow.com/questions/55788868/how-to-return-mean-value-or-expectation-value-of-a-distribution-estimated-via

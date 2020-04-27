@@ -22,3 +22,5 @@ plt.savefig('pmf_moments')
 
 expected_value = (probabilities['The number of times Morty says \'Ah Jeez\''] * probabilities['Probability']).sum()
 
+
+

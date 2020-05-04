@@ -1,7 +1,9 @@
 from itertools import product
 import seaborn as sns
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
+from scipy.stats import randint, bernoulli
 
 stones = ['Space', 'Reality', 'Mind', 'Time', 'Power', 'Soul']
 stones_scores = dict(zip(stones, range(1, 7)))
@@ -28,3 +30,19 @@ ax = sns.barplot(
     data=probabilities,
 )
 plt.savefig("pmf")
+
+# discrete uniform distribution
+x = np.arange(1, 7)
+y = randint.pmf(x, 1, 7)
+ax = sns.barplot(
+    x='x',
+    y='f(x)',
+    data=pd.DataFrame(data=list(zip(x, y)), columns=['x', 'f(x)']),
+)
+plt.savefig("uniform_pmf")
+
+# bernoulli distribution
+p = 0.5
+bernoulli()
+
+

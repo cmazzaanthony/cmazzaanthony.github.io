@@ -3,7 +3,7 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.stats import randint, bernoulli
+from scipy.stats import randint, bernoulli, binom, geom
 
 stones = ['Space', 'Reality', 'Mind', 'Time', 'Power', 'Soul']
 stones_scores = dict(zip(stones, range(1, 7)))
@@ -42,7 +42,37 @@ ax = sns.barplot(
 plt.savefig("uniform_pmf")
 
 # bernoulli distribution
-p = 0.5
-bernoulli()
+p = 0.6
+x = np.random.randint(0, 2, 100)
+y = bernoulli(p).pmf(x)
+ax = sns.barplot(
+    x='x',
+    y='f(x)',
+    data=pd.DataFrame(data=list(zip(x, y)), columns=['x', 'f(x)']),
+)
+plt.savefig("bernoulli_pmf")
+
+# binomial distribution
+p = 0.6
+k = 5
+x = np.random.randint(0, 10, 100)
+y = binom(p, k).pmf(x)
+ax = sns.barplot(
+    x='x',
+    y='f(x)',
+    data=pd.DataFrame(data=list(zip(x, y)), columns=['x', 'f(x)']),
+)
+plt.savefig("binomial_pmf")
+
+# geometric distribution
+p = 0.6
+x = np.random.randint(0, 10, 100)
+y = geom(p).pmf(x)
+ax = sns.barplot(
+    x='x',
+    y='f(x)',
+    data=pd.DataFrame(data=list(zip(x, y)), columns=['x', 'f(x)']),
+)
+plt.savefig("geometric_pmf")
 
 

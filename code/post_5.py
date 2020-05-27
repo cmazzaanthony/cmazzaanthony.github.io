@@ -3,7 +3,7 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.stats import randint, bernoulli, binom, geom
+from scipy.stats import randint, bernoulli, binom, geom, poisson
 
 stones = ['Space', 'Reality', 'Mind', 'Time', 'Power', 'Soul']
 stones_scores = dict(zip(stones, range(1, 7)))
@@ -38,6 +38,7 @@ ax = sns.barplot(
     x='x',
     y='f(x)',
     data=pd.DataFrame(data=list(zip(x, y)), columns=['x', 'f(x)']),
+    palette="Blues_d",
 )
 plt.savefig("uniform_pmf")
 
@@ -49,6 +50,7 @@ ax = sns.barplot(
     x='x',
     y='f(x)',
     data=pd.DataFrame(data=list(zip(x, y)), columns=['x', 'f(x)']),
+    palette="Blues_d",
 )
 plt.savefig("bernoulli_pmf")
 
@@ -61,18 +63,31 @@ ax = sns.barplot(
     x='x',
     y='f(x)',
     data=pd.DataFrame(data=list(zip(x, y)), columns=['x', 'f(x)']),
+    palette="Blues_d",
 )
 plt.savefig("binomial_pmf")
 
 # geometric distribution
 p = 0.6
-x = np.random.randint(0, 10, 100)
+x = np.random.randint(0, 5, 100)
 y = geom(p).pmf(x)
 ax = sns.barplot(
     x='x',
     y='f(x)',
     data=pd.DataFrame(data=list(zip(x, y)), columns=['x', 'f(x)']),
+    palette="Blues_d",
 )
 plt.savefig("geometric_pmf")
 
+# poisson distribution
+lambda_ = 4
+x = np.random.randint(0, 10, 100)
+y = poisson(p).pmf(x)
+ax = sns.barplot(
+    x='x',
+    y='f(x)',
+    data=pd.DataFrame(data=list(zip(x, y)), columns=['x', 'f(x)']),
+    palette="Blues_d",
+)
+plt.savefig("poisson_pmf")
 
